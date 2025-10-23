@@ -1,0 +1,72 @@
+Units and locations in library 'K:\GuoXuan\VCU资料包\用户资料\VCU_v0.1.0\lib\out.lib'
+Unit name                                                                                        size     from       to
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMBrakeResponse.c.o        10076    65587    75663
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMThrottleResponse.c.o     10312    55275    65587
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMBrakeResponse.c.o         5580    49695    55275
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMThrottleResponse.c.o     10500    39195    49695
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TimeBasedRamp.c.o           4812    79996    84808
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\checkio.c.o                 4333    75663    79996
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\filter_lp.c.o               5224      107     5331
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\limit.c.o                   5900     5331    11231
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\los.c.o                     5864    11231    17095
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\refmap.c.o                  7312    17095    24407
+K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o           14788    24407    39195
+
+EXPORTED OBJECTS
+Check_IO                       F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\checkio.c.o)
+DeltaCalc                      F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+Filter_lp_calc                 F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\filter_lp.c.o)
+Limit_Map                      F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\limit.c.o)
+Los_Coeff                      F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\los.c.o)
+PercentCalc                    F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+Protection                     F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+RefMap_Process                 F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\refmap.c.o)
+RefMap_init                    F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\refmap.c.o)
+RefMap_set                     F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\refmap.c.o)
+SMBRAKERESPONSE_calc           F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMBrakeResponse.c.o)
+SMTHROTTLERESPONSE_calc        F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMThrottleResponse.c.o)
+TMBRAKERESPONSE_calc           F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMBrakeResponse.c.o)
+TMTHROTTLERESPONSE_calc        F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMThrottleResponse.c.o)
+ThrottleMap_Process            F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_getErrorInf        F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_getProtectDelta    F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_getVreifyRange     F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_init               F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_setCheck           F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_setProtect         F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_setVoltage         F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+_CASE_CHECKED                  I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+_CASE_CHECKED_BYTE             I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+_LDIVS                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMBrakeResponse.c.o)
+_LDIVS                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMThrottleResponse.c.o)
+_LDIVS                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMBrakeResponse.c.o)
+_LDIVS                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMThrottleResponse.c.o)
+_LDIVS                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\limit.c.o)
+_LDIVS                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\los.c.o)
+_LDIVS                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\refmap.c.o)
+_LDIVS                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+_LMUL                          I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMBrakeResponse.c.o)
+_LMUL                          I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMThrottleResponse.c.o)
+_LMUL                          I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\filter_lp.c.o)
+_LMULS16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMBrakeResponse.c.o)
+_LMULS16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMThrottleResponse.c.o)
+_LMULS16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMBrakeResponse.c.o)
+_LMULS16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMThrottleResponse.c.o)
+_LMULS16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\limit.c.o)
+_LMULU16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMBrakeResponse.c.o)
+_LMULU16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMThrottleResponse.c.o)
+_LMULU16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMBrakeResponse.c.o)
+_LMULU16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMThrottleResponse.c.o)
+_LMULU16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\refmap.c.o)
+_LMULU16x32                    I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+_LNEG                          I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMBrakeResponse.c.o)
+_LNEG                          I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMThrottleResponse.c.o)
+_LNEG                          I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMBrakeResponse.c.o)
+_LNEG                          I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMThrottleResponse.c.o)
+_LNEG                          I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TimeBasedRamp.c.o)
+memset                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\refmap.c.o)
+memset                         I   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ratio                          F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TMThrottleResponse.c.o)
+ratiowithoffset                F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMBrakeResponse.c.o)
+ratiowithoffset                F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\SMThrottleResponse.c.o)
+timebasedramp_calc             F   (K:\GuoXuan\VCU资料包\用户资料\libv0.1.0\lib_Data\Standard\ObjectCode\TimeBasedRamp.c.o)

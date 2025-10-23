@@ -1,0 +1,64 @@
+Units and locations in library 'D:\work\guoxuanVCU\software\lib\bin\out.lib'
+Unit name                                                                          size     from       to
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\average.c.o           4937      109     5046
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\battery.c.o           5056     5046    10102
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\curve_s.c.o           6748    10102    16850
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\filter_lp.c.o         4672    16850    21522
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\limit.c.o             5716    21522    27238
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\los.c.o               6140    27238    33378
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\mapout.c.o            6568    33378    39946
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\ramp.c.o              4237    39946    44183
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\refmap.c.o            7284    44183    51467
+D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o     13676    51467    65143
+
+EXPORTED OBJECTS
+Average_Calc                   F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\average.c.o)
+Average_Clear                  F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\average.c.o)
+Battery_Calc                   F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\battery.c.o)
+Battery_Init                   F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\battery.c.o)
+Curve_Sacc                     F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\curve_s.c.o)
+DeltaCalc                      F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+Filter_lp_calc                 F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\filter_lp.c.o)
+Limit_Map                      F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\limit.c.o)
+Los_Coeff                      F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\los.c.o)
+MapOut_calc                    F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\mapout.c.o)
+PercentCalc                    F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+Protection                     F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+Ramp_Calc                      F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\ramp.c.o)
+RefMap_Process                 F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\refmap.c.o)
+RefMap_init                    F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\refmap.c.o)
+RefMap_set                     F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\refmap.c.o)
+ThrottleMap_Process            F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_getErrorInf        F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_getProtectDelta    F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_getVreifyRange     F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_init               F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_setCheck           F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_setProtect         F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+ThrottleMap_setVoltage         F   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+_IQabs                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+_ISHL                          I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\los.c.o)
+_LCMP                          I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\curve_s.c.o)
+_LCMP                          I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\mapout.c.o)
+_LDIVS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\curve_s.c.o)
+_LDIVS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\limit.c.o)
+_LDIVS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\los.c.o)
+_LDIVS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\mapout.c.o)
+_LDIVS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\refmap.c.o)
+_LDIVS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+_LINC                          I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\battery.c.o)
+_LMULS16x32                    I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\curve_s.c.o)
+_LMULU16x32                    I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\filter_lp.c.o)
+_LMULU16x32                    I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\mapout.c.o)
+_LMULU16x32                    I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\refmap.c.o)
+_LSHL                          I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\curve_s.c.o)
+_LSHL                          I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\los.c.o)
+_LSHL                          I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\mapout.c.o)
+_LSHRS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\curve_s.c.o)
+_LSHRS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\filter_lp.c.o)
+_LSHRS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\limit.c.o)
+_LSHRS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\mapout.c.o)
+_LSHRS                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\refmap.c.o)
+_LSHRU                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)
+memset                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\refmap.c.o)
+memset                         I   (D:\work\guoxuanVCU\software\lib\lib_Data\Standard\ObjectCode\throttle_map.c.o)

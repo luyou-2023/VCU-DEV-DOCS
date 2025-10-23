@@ -1,0 +1,1 @@
+exe程序 必须和 ControlCAN.dll 以及 kerneldlls 文件夹在一起

@@ -1,0 +1,19 @@
+名称	单位	基值	格式	精度	序号	位	页
+MotorTemp	℃	200	16384	0.1	0		0
+MosfetTemp	℃	200	16384	0.1	1		0
+vd	V	100	16384	0.1	2		0
+vq	V	100	16384	0.1	3		1
+Vdq	V	100	16384	0.1	4		1
+VDC	V	100	16384	0.1	5		1
+Id_Ref	A	600	16384	0.1	6		1
+Iq_Ref	A	600	16384	0.1	7		2
+Id_Fbk	A	600	16384	0.1	8		2
+Iq_Fbk	A	600	16384	0.1	9		2
+Speed_Ref	RPM	6000	16384	0.1	10		2
+Speed_Fbk	RPM	6000	16384	0.1	11		2
+Fault	PU	1	1	0.1	12		2
+Torque_Ref	Nm	100	16384	0.1	13		2
+Torque_Ref	Nm	100	16384	0.1	14		2
+VACC	V	1	1	1	15		2
+VksiMeas	V	100	16384	1	16		2
+HANDLE	V	1	1	1	17		2

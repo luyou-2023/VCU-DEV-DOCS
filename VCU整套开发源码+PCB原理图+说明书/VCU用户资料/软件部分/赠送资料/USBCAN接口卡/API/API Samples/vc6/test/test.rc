@@ -1,0 +1,381 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\test.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\test.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 test"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "test 1.0.0.1 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TEST_DIALOG DIALOGEX 0, 0, 399, 320
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "测试 CAN 通用例子"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        " 设备参数 ",IDC_STATIC,9,3,304,98
+    LTEXT           "索引号:",IDC_STATIC,143,16,29,8
+    COMBOBOX        IDC_COMBO_INDEX,185,14,33,121,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "连接",IDC_BUTTON_CONNECT,325,13,46,14
+    PUSHBUTTON      "启动CAN",IDC_BUTTON_STARTCAN,328,33,46,14
+    PUSHBUTTON      "复位CAN",IDC_BUTTON_RESETCAN,327,55,46,14
+    LTEXT           "发送格式:",IDC_STATIC,20,121,37,8
+    COMBOBOX        IDC_COMBO_SENDTYPE,59,117,63,91,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "帧类型:",IDC_STATIC,136,121,29,8
+    COMBOBOX        IDC_COMBO_SENDFRAMETYPE,166,117,41,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "帧格式:",IDC_STATIC,218,120,29,8
+    COMBOBOX        IDC_COMBO_SENDFRAMEFORMAT,249,116,41,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "帧ID:",IDC_STATIC,305,120,21,8
+    EDITTEXT        IDC_EDIT_SENDFRAMEID,327,117,41,12,ES_AUTOHSCROLL
+    LTEXT           "数据:",IDC_STATIC,20,139,21,8
+    EDITTEXT        IDC_EDIT_SENDDATA,44,137,120,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "发送",IDC_BUTTON_SEND,183,135,41,14
+    GROUPBOX        " 发送数据帧 ",IDC_STATIC,10,106,377,47
+    LISTBOX         IDC_LIST_INFO,16,168,363,110,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        " 信息 ",IDC_STATIC,10,158,377,125
+    LTEXT           "第几路CAN:",IDC_STATIC,227,16,41,8
+    COMBOBOX        IDC_COMBO_CANIND,271,13,33,121,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        " 初始化CAN参数 ",IDC_STATIC,16,32,290,64
+    LTEXT           "验收码: 0x",IDC_STATIC,24,45,40,8
+    EDITTEXT        IDC_EDIT_CODE,66,43,40,12,ES_AUTOHSCROLL
+    LTEXT           "屏蔽码: 0x",IDC_STATIC,118,45,41,8
+    EDITTEXT        IDC_EDIT_MASK,160,43,42,12,ES_AUTOHSCROLL
+    LTEXT           "定时器0: 0x",IDC_STATIC,23,80,45,8
+    EDITTEXT        IDC_EDIT_TIMING0,69,79,40,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "定时器1: 0x",IDC_STATIC,117,80,45,8
+    EDITTEXT        IDC_EDIT_TIMING1,163,78,42,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "滤波方式:",IDC_STATIC,211,59,37,8
+    COMBOBOX        IDC_COMBO_FILTERTYPE,252,55,50,44,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "模式:",IDC_STATIC,226,80,21,8
+    COMBOBOX        IDC_COMBO_MODE,252,76,50,92,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "启动接收发送测试",IDC_BUTTON_recvsend,315,84,79,14,NOT 
+                    WS_VISIBLE
+    COMBOBOX        IDC_COMBO_BAUD1,64,61,48,144,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "波特率:",IDC_STATIC,19,63,29,8
+    PUSHBUTTON      "清空",IDC_BUTTON_clear,323,138,50,14
+    LTEXT           "类型:",IDC_STATIC,13,16,21,8
+    COMBOBOX        IDC_COMBO_devtype,41,14,95,185,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "发送帧数:",IDC_STATIC,28,296,37,8
+    LTEXT           "接收帧数:",IDC_STATIC,181,298,37,8
+    PUSHBUTTON      "清空计数",IDC_BUTTON_clearcnt,329,296,50,14
+    LTEXT           "0",IDC_STATIC_recv,221,299,53,8
+    LTEXT           "0",IDC_STATIC_send,67,296,53,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "test Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "test\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "test.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "test 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TEST232CAN_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_CANBAUD, 0x403, 7, 0
+0x3031, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_CANBAUD, 0x403, 7, 0
+0x3032, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_CANBAUD, 0x403, 7, 0
+0x3035, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_CANBAUD, 0x403, 8, 0
+0x3231, 0x4b35, 0x7062, 0x0073, 
+    IDC_COMBO_CANBAUD, 0x403, 8, 0
+0x3532, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_CANBAUD, 0x403, 8, 0
+0x3035, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_CANBAUD, 0x403, 8, 0
+0x3038, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_CANBAUD, 0x403, 9, 0
+0x3031, 0x3030, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_232BAUD, 0x403, 8, 0
+0x2e32, 0x4b34, 0x7062, 0x0073, 
+    IDC_COMBO_232BAUD, 0x403, 8, 0
+0x2e34, 0x4b38, 0x7062, 0x0073, 
+    IDC_COMBO_232BAUD, 0x403, 8, 0
+0x2e39, 0x4b36, 0x7062, 0x0073, 
+    IDC_COMBO_232BAUD, 0x403, 9, 0
+0x3431, 0x342e, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_232BAUD, 0x403, 9, 0
+0x3931, 0x322e, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_232BAUD, 0x403, 9, 0
+0x3832, 0x382e, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_232BAUD, 0x403, 9, 0
+0x3735, 0x362e, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_232BAUD, 0x403, 10, 0
+0x3131, 0x2e35, 0x4b32, 0x7062, 0x0073, 
+    IDC_COMBO_SENDTYPE, 0x403, 9, 0
+0xfdd5, 0xa3b3, 0xa2b7, 0xcdcb, "\000" 
+    IDC_COMBO_SENDTYPE, 0x403, 9, 0
+0xa5b5, 0xceb4, 0xa2b7, 0xcdcb, "\000" 
+    IDC_COMBO_SENDTYPE, 0x403, 9, 0
+0xd4d7, 0xa2b7, 0xd4d7, 0xd5ca, "\000" 
+    IDC_COMBO_SENDTYPE, 0x403, 13, 0
+0xa5b5, 0xceb4, 0xd4d7, 0xa2b7, 0xd4d7, 0xd5ca, "\000" 
+    IDC_COMBO_SENDFRAMETYPE, 0x403, 7, 0
+0xeab1, 0xbcd7, 0xa1d6, "\000" 
+    IDC_COMBO_SENDFRAMETYPE, 0x403, 7, 0
+0xa9c0, 0xb9d5, 0xa1d6, "\000" 
+    IDC_COMBO_SENDFRAMEFORMAT, 0x403, 7, 0
+0xfdca, 0xddbe, 0xa1d6, "\000" 
+    IDC_COMBO_SENDFRAMEFORMAT, 0x403, 7, 0
+0xb6d4, 0xccb3, 0xa1d6, "\000" 
+    0
+END
+
+IDD_TEST_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_SENDTYPE, 0x403, 9, 0
+0xfdd5, 0xa3b3, 0xa2b7, 0xcdcb, "\000" 
+    IDC_COMBO_SENDTYPE, 0x403, 9, 0
+0xa5b5, 0xceb4, 0xa2b7, 0xcdcb, "\000" 
+    IDC_COMBO_SENDTYPE, 0x403, 9, 0
+0xd4d7, 0xa2b7, 0xd4d7, 0xd5ca, "\000" 
+    IDC_COMBO_SENDTYPE, 0x403, 13, 0
+0xa5b5, 0xceb4, 0xd4d7, 0xa2b7, 0xd4d7, 0xd5ca, "\000" 
+    IDC_COMBO_SENDFRAMETYPE, 0x403, 7, 0
+0xeab1, 0xbcd7, 0xa1d6, "\000" 
+    IDC_COMBO_SENDFRAMETYPE, 0x403, 7, 0
+0xa9c0, 0xb9d5, 0xa1d6, "\000" 
+    IDC_COMBO_SENDFRAMEFORMAT, 0x403, 7, 0
+0xfdca, 0xddbe, 0xa1d6, "\000" 
+    IDC_COMBO_SENDFRAMEFORMAT, 0x403, 7, 0
+0xb6d4, 0xccb3, 0xa1d6, "\000" 
+    IDC_COMBO_FILTERTYPE, 0x403, 7, 0
+0xabcb, 0xcbc2, 0xa8b2, "\000" 
+    IDC_COMBO_FILTERTYPE, 0x403, 7, 0
+0xa5b5, 0xcbc2, 0xa8b2, "\000" 
+    IDC_COMBO_MODE, 0x403, 9, 0
+0xfdd5, 0xa3b3, 0xa3c4, 0xbdca, "\000" 
+    IDC_COMBO_MODE, 0x403, 9, 0
+0xbbd6, 0xfdcc, 0xa3c4, 0xbdca, "\000" 
+    IDC_COMBO_BAUD1, 0x403, 9, 0
+0x3031, 0x3030, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUD1, 0x403, 8, 0
+0x3038, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUD1, 0x403, 8, 0
+0x3035, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUD1, 0x403, 8, 0
+0x3532, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUD1, 0x403, 8, 0
+0x3231, 0x4b35, 0x7062, 0x0073, 
+    IDC_COMBO_BAUD1, 0x403, 8, 0
+0x3031, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUD1, 0x403, 7, 0
+0x3035, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUD1, 0x403, 7, 0
+0x3032, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUD1, 0x403, 7, 0
+0x3031, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUD1, 0x403, 6, 0
+0x4b35, 0x7062, 0x0073, 
+    IDC_COMBO_BAUD1, 0x403, 9, 0
+0xd4d7, 0xa8b6, 0xe5d2, 0xada1, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "popmenu"
+    BEGIN
+        MENUITEM "刷新",                        ID_MENU_REFRESH
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 test(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\test.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

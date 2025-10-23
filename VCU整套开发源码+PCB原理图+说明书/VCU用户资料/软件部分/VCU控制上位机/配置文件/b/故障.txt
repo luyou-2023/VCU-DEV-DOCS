@@ -1,0 +1,17 @@
+¹ÊÕÏ´úÂë	¹ÊÕÏÃû³Æ
+12	Controller_Overcurrent
+13	Current_Sensor_Fault
+14	Precharge_Failed
+17	Severe_Undervolt
+18	Severe_Overvolt
+22	Controller_Overtemp_Cutback
+23	Undervolt_Cutback
+28	Motor_Temp_Hot_Cutback
+31	Main_Open/Short
+37	Motor_Open
+46	EEPROM_Failure
+55	Main_Throttle_Failure
+56	Assist_Throttle_Failure
+98	Motor_Temp_Open
+99	Overvolt_Cutback
+103	Current_Short

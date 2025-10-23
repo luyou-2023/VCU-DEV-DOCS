@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : E:\bms bcm\feisi\整车控制器 板子 原理图 改后\VCU_1_3\PCB图.PcbDoc
+Date         : 2016/8/26
+Time         : 10:42:18
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 98.01%
+    Connections, 955
+    Connections routed, 936
+    Connections remaining, 19
+count : 4
